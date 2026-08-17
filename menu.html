@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .hero {
+            min-height: 90px;
+            width: 100%;
+            background-image: none;
+            background-color: black;
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+  </style>
+</head>
+<body>
+  <header class="hero" id="home">
+  <nav class="navbar">
+
+            <a href="#home" class="logo">
+                fast food
+            </a>
+
+            <button class="mobile-menu" id="mobileMenu">
+                ☰
+            </button>
+
+            <div class="nav-right" id="navRight">
+
+                <div class="nav-links">
+                    <a href="index.html">HOME</a>
+                    <a href="about.html">ABOUT</a>
+                    <a href="menu.html">MENU</a>
+                    <a href="book table.html">BOOK TABLE</a>
+                </div>
+
+                <div class="nav-icons">
+
+                    <!-- User -->
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                         fill="currentColor"
+                         viewBox="0 0 16 16">
+                        <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                    </svg>
+
+                    <!-- Cart -->
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                         fill="currentColor"
+                         viewBox="0 0 16 16">
+                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M5 12a2 2 0 1 0 0 4 2 2 0 0 0-4 0m7 0a2 2 0 1 0 0 4 2 2 0 0 0-4 0m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                    </svg>
+
+                    <!-- Search -->
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                         fill="currentColor"
+                         viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                    </svg>
+
+                </div>
+
+                <button class="order-top">
+                    Order Now
+                </button>
+
+            </div>
+
+        </nav>
+  </header>
+
+
+    <section id="menu">
+
+        <div class="container">
+
+            <div class="section-title">
+                <h2>Our Menu</h2>
+            </div>
+
+
+            <div class="filter-buttons">
+
+                <button class="filter-btn active">
+                    All
+                </button>
+
+                <button class="filter-btn">
+                    Burger
+                </button>
+
+                <button class="filter-btn">
+                    Pizza
+                </button>
+
+                <button class="filter-btn">
+                    Pasta
+                </button>
+
+                <button class="filter-btn">
+                    Fries
+                </button>
+
+            </div>
+
+
+            <div class="menu-grid">
+
+
+                <!-- CARD 1 -->
+
+                <div class="menu-card">
+
+                    <div class="menu-image-box">
+                        <img
+                            src="image/pngegg (1).png"
+                            class="menu-image"
+                            alt="Delicious Pizza">
+                    </div>
+
+                    <div class="menu-info">
+
+                        <h3>
+                            Delicious Pizza
+                        </h3>
+
+                        <p>
+                            Veniam debitis quaerat officiis quasi
+                            cupiditate quo, quisquam velit, magnam
+                            voluptatem repellendus sed eaque.
+                        </p>
+
+                        <div class="menu-bottom">
+                            <span class="price">$20</span>
+
+                            <button class="cart-btn">
+                                🛒
+                            </button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- CARD 2 -->
+
+                <div class="menu-card">
+
+                    <div class="menu-image-box">
+                        <img
+                            src="image/pngegg.png"
+                            class="menu-image"
+                            alt="Delicious Burger">
+                    </div>
+
+                    <div class="menu-info">
+
+                        <h3>
+                            Delicious Burger
+                        </h3>
+
+                        <p>
+                            Veniam debitis quaerat officiis quasi
+                            cupiditate quo, quisquam velit, magnam
+                            voluptatem repellendus sed eaque.
+                        </p>
+
+                        <div class="menu-bottom">
+                            <span class="price">$15</span>
+
+                            <button class="cart-btn">
+                                🛒
+                            </button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- CARD 3 -->
+
+                <div class="menu-card">
+
+                    <div class="menu-image-box">
+                        <img
+                            src="image/pngegg (2).png"
+                            class="menu-image"
+                            alt="Delicious Pizza">
+                    </div>
+
+                    <div class="menu-info">
+
+                        <h3>
+                            Delicious Pizza
+                        </h3>
+
+                        <p>
+                            Veniam debitis quaerat officiis quasi
+                            cupiditate quo, quisquam velit, magnam
+                            voluptatem repellendus sed eaque.
+                        </p>
+
+                        <div class="menu-bottom">
+                            <span class="price">$17</span>
+
+                            <button class="cart-btn">
+                                🛒
+                            </button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- CARD 4 -->
+
+                <div class="menu-card">
+
+                    <div class="menu-image-box">
+                        <img
+                            src="image/pngegg (3).png"
+                            class="menu-image"
+                            alt="Delicious Pasta">
+                    </div>
+
+                    <div class="menu-info">
+
+                        <h3>
+                            Delicious Pasta
+                        </h3>
+
+                        <p>
+                            Veniam debitis quaerat officiis quasi
+                            cupiditate quo, quisquam velit, magnam
+                            voluptatem repellendus sed eaque.
+                        </p>
+
+                        <div class="menu-bottom">
+                            <span class="price">$18</span>
+
+                            <button class="cart-btn">
+                                🛒
+                            </button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- CARD 5 -->
+
+                <div class="menu-card">
+
+                    <div class="menu-image-box">
+                        <img
+                            src="image/pngegg (4).png"
+                            class="menu-image"
+                            alt="French Fries">
+                    </div>
+
+                    <div class="menu-info">
+
+                        <h3>
+                            French Fries
+                        </h3>
+
+                        <p>
+                            Veniam debitis quaerat officiis quasi
+                            cupiditate quo, quisquam velit, magnam
+                            voluptatem repellendus sed eaque.
+                        </p>
+
+                        <div class="menu-bottom">
+                            <span class="price">$10</span>
+
+                            <button class="cart-btn">
+                                🛒
+                            </button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- CARD 6 -->
+
+                <div class="menu-card">
+
+                    <div class="menu-image-box">
+                        <img
+                            src="image/pngegg (5).png"
+                            class="menu-image"
+                            alt="Delicious Pizza">
+                    </div>
+
+                    <div class="menu-info">
+
+                        <h3>
+                            Delicious Pizza
+                        </h3>
+
+                        <p>
+                            Veniam debitis quaerat officiis quasi
+                            cupiditate quo, quisquam velit, magnam
+                            voluptatem repellendus sed eaque.
+                        </p>
+
+                        <div class="menu-bottom">
+                            <span class="price">$17</span>
+
+                            <button class="cart-btn">
+                                🛒
+                            </button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- CARD 7 -->
+
+                <div class="menu-card">
+
+                    <div class="menu-image-box">
+                        <img
+                            src="image/pngegg (6).png"
+                            class="menu-image"
+                            alt="Tasty Burger">
+                    </div>
+
+                    <div class="menu-info">
+
+                        <h3>
+                            Tasty Burger
+                        </h3>
+
+                        <p>
+                            Veniam debitis quaerat officiis quasi
+                            cupiditate quo, quisquam velit, magnam
+                            voluptatem repellendus sed eaque.
+                        </p>
+
+                        <div class="menu-bottom">
+                            <span class="price">$12</span>
+
+                            <button class="cart-btn">
+                                🛒
+                            </button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- CARD 8 -->
+
+                <div class="menu-card">
+
+                    <div class="menu-image-box">
+                        <img
+                            src="image/pngegg (8).png"
+                            class="menu-image"
+                            alt="Delicious Pasta">
+                    </div>
+
+                    <div class="menu-info">
+
+                        <h3>
+                            Delicious Pasta
+                        </h3>
+
+                        <p>
+                            Veniam debitis quaerat officiis quasi
+                            cupiditate quo, quisquam velit, magnam
+                            voluptatem repellendus sed eaque.
+                        </p>
+
+                        <div class="menu-bottom">
+                            <span class="price">$14</span>
+
+                            <button class="cart-btn">
+                                🛒
+                            </button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- CARD 9 -->
+
+                <div class="menu-card">
+
+                    <div class="menu-image-box">
+                        <img
+                            src="image/pngegg (9).png"
+                            class="menu-image"
+                            alt="Delicious Pizza">
+                    </div>
+
+                    <div class="menu-info">
+
+                        <h3>
+                            Delicious Pizza
+                        </h3>
+
+                        <p>
+                            Veniam debitis quaerat officiis quasi
+                            cupiditate quo, quisquam velit, magnam
+                            voluptatem repellendus sed eaque.
+                        </p>
+
+                        <div class="menu-bottom">
+                            <span class="price">$17</span>
+
+                            <button class="cart-btn">
+                                🛒
+                            </button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="view-more">
+
+                <button class="btn">
+                    View More
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+       <footer class="footer">
+
+        <div class="container">
+
+            <div class="footer-grid">
+
+
+                <!-- Contact -->
+
+                <div>
+
+                    <h3>
+                        Contact Us
+                    </h3>
+
+                    <div class="contact-list">
+
+                        <div class="contact-item">
+                            <span>📍</span>
+                            <span>Location</span>
+                        </div>
+
+                        <div class="contact-item">
+                            <span>📞</span>
+                            <span>Call +01 123456789</span>
+                        </div>
+
+                        <div class="contact-item">
+                            <span>✉</span>
+                            <span>demo@gmail.com</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- About Footer -->
+
+                <div>
+
+                    <h3>
+                        Feane
+                    </h3>
+
+                    <p>
+                        Necessary, making this the first true
+                        generator on the Internet. It uses a dictionary
+                        of over 200 Latin words, combined with
+                    </p>
+
+
+                    <div class="social-icons">
+
+                        <a href="#" aria-label="Facebook">
+                            f
+                        </a>
+
+                        <a href="#" aria-label="Twitter">
+                            𝕏
+                        </a>
+
+                        <a href="#" aria-label="Instagram">
+                            ◎
+                        </a>
+
+                        <a href="#" aria-label="Pinterest">
+                            p
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Opening Hours -->
+
+                <div>
+
+                    <h3>
+                        Opening Hours
+                    </h3>
+
+                    <p>
+                        <strong>Everyday</strong>
+                    </p>
+
+                    <p>
+                        10.00 AM - 10.00 PM
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="copyright">
+
+                © 2026 All Rights Reserved By Free Html Templates
+
+            </div>
+
+        </div>
+
+    </footer>
+<!-- =====================================================
+         JAVASCRIPT
+    ===================================================== -->
+
+    <script>
+
+        /* Mobile menu */
+
+        const mobileMenu =
+            document.getElementById("mobileMenu");
+
+        const navRight =
+            document.getElementById("navRight");
+
+        mobileMenu.addEventListener("click", function () {
+
+            navRight.classList.toggle("show");
+
+        });
+
+
+        /* Close mobile menu after clicking link */
+
+        const navLinks =
+            document.querySelectorAll(".nav-links a");
+
+        navLinks.forEach(function (link) {
+
+            link.addEventListener("click", function () {
+
+                navRight.classList.remove("show");
+
+            });
+
+        });
+
+
+        /* Filter button active state */
+
+        const filterButtons =
+            document.querySelectorAll(".filter-btn");
+
+        filterButtons.forEach(function (button) {
+
+            button.addEventListener("click", function () {
+
+                filterButtons.forEach(function (btn) {
+
+                    btn.classList.remove("active");
+
+                });
+
+                button.classList.add("active");
+
+            });
+
+        });
+
+
+        /* Simple booking submit */
+
+        const bookingForm =
+            document.querySelector(".booking-form form");
+
+        bookingForm.addEventListener("submit", function (event) {
+
+            event.preventDefault();
+
+            alert("Your table booking request has been submitted!");
+
+        });
+
+    </script>
+
+</body>
+</html>

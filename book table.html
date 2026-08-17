@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+.hero {
+            min-height: 90px;
+            width: 100%;
+             background-image: none;
+             background-color: black;
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+
+                .nav{
+            height: 100px;
+            width: 100%;
+            background-color: rgb(2, 2, 2);
+            background-image: none;
+        }
+          input{
+            width: 499px;
+            height: 46px;
+            font-size: 10px;
+            margin-left: 85px;
+            border-radius: -5px;
+         }
+        input::placeholder{
+            font-size: 17px;
+            margin-left: 20px;
+            color: black;
+        }
+        .time{
+            height: 70px;
+            width: 170px;
+            background-color: rgba(245, 190, 9, 0.767);
+            color: rgb(245, 245, 245);
+            border-style: none;
+            font-size: 20px;
+            border-radius: 40px;
+            margin-left: 500px;
+            margin-bottom: 250px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 80px;
+            cursor: pointer;
+      
+        }
+        .map{
+                       width: 100px;
+            height: 100px;
+            margin-left: 650px;
+            margin-top: -750px;
+            border-radius: -10px;
+        }
+        .our{
+            font-family: Rage;
+            font-size: 50px;
+            text-align: center;
+        }
+     
+        .divv{
+            height: 200px;
+            width: 500px;
+            background-color: rgb(49, 49, 49);
+        }
+.div1{
+    display: flex;
+    gap: 50px;
+    margin-left: 150px;
+}
+.avatar-container{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 100px;
+    display: inline-block;
+}
+.avatar-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 5px solid #f39c12;
+    object-fit: cover;
+}
+.pointer{
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent ;
+    border-bottom: 14px solid #f39c12
+}
+.press{
+   height: 450px;
+            width: 14inch;
+            background-color: #212730; 
+            font-family: sans-serif;
+            font-style: normal;
+
+}
+.door{
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 100px;
+    color: #f0f1f2;
+    font-size: 25px;
+    margin-top: 50px;
+    font-style: normal;
+
+}
+.ture{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f0f1f2;
+    margin-left: 500px;
+    margin-top: -110px;
+}
+.all{
+   font-family: Arial, Helvetica, sans-serif;
+    color: #f0f1f2;
+    margin-left: 1000px;
+    margin-top: -200px; 
+}
+.bi-facebook{
+    
+    height: 30px;
+    width: 30px;
+    border-radius: 30%;
+}
+.bi-twitter{
+ 
+    height: 30px;
+    width: 30px;
+    border-radius: 30%; 
+}
+.bi-instagram{
+
+    height: 30px;
+    width: 30px;
+    border-radius: 30%;   
+}
+.bi-pinterest{
+  
+    height: 30px;
+    width: 30px;
+    border-radius: 30%;   
+}
+
+
+
+
+    
+          
+
+    
+    </style>
+</head>
+<body>
+     <header class="hero" id="home">
+
+        <nav class="navbar">
+
+            <a href="#home" class="logo">
+                fast food
+            </a>
+
+            <button class="mobile-menu" id="mobileMenu">
+                ☰
+            </button>
+
+            <div class="nav-right" id="navRight">
+
+                <div class="nav-links">
+                    <a href="index.html">HOME</a>
+                    <a href="about.html">ABOUT</a>
+                    <a href="menu.html">MENU</a>
+                    <a href="book table.html">BOOK TABLE</a>
+                </div>
+
+                <div class="nav-icons">
+
+                    <!-- User -->
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                         fill="currentColor"
+                         viewBox="0 0 16 16">
+                        <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                    </svg>
+
+                    <!-- Cart -->
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                         fill="currentColor"
+                         viewBox="0 0 16 16">
+                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M5 12a2 2 0 1 0 0 4 2 2 0 0 0-4 0m7 0a2 2 0 1 0 0 4 2 2 0 0 0-4 0m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                    </svg>
+
+                    <!-- Search -->
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                         fill="currentColor"
+                         viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                    </svg>
+
+                </div>
+
+                <button class="order-top">
+                    Order Now
+                </button>
+
+            </div>
+
+        </nav>
+     </header>
+     
+<div>
+<h3 style="font-family: script MT; font-size: 40px; margin-left: 100px;">Book A Table</h3><br><br>
+<div class="easy">
+    <form action="">
+        <label for=""></label>
+        <input type="text" placeholder="your name"><br><br>
+        <label for=""></label>
+        <input type="text" placeholder="phone number"><br><br>
+        <label for=""></label>
+        <input type="text" placeholder="your email"><br><br>
+        <label for=""></label>
+        <input type="text" placeholder="How many persons?"><br><br>
+        <label for=""></label>
+        <input type="text" placeholder="dd-mm-yy">
+    </form>
+
+        
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+   <div class="map"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31336.288365223598!2d79.35880189354368!3d10.960649791931553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5532b360353419%3A0x9ecb5d94413ad35!2sKumbakonam%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1786172116185!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+</div>
+     
+    
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<!-- =====================================================
+         FOOTER
+    ===================================================== -->
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <div class="footer-grid">
+
+
+                <!-- Contact -->
+
+                <div>
+
+                    <h3>
+                        Contact Us
+                    </h3>
+
+                    <div class="contact-list">
+
+                        <div class="contact-item">
+                            <span>📍</span>
+                            <span>Location</span>
+                        </div>
+
+                        <div class="contact-item">
+                            <span>📞</span>
+                            <span>Call +01 123456789</span>
+                        </div>
+
+                        <div class="contact-item">
+                            <span>✉</span>
+                            <span>demo@gmail.com</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- About Footer -->
+
+                <div>
+
+                    <h3>
+                        Feane
+                    </h3>
+
+                    <p>
+                        Necessary, making this the first true
+                        generator on the Internet. It uses a dictionary
+                        of over 200 Latin words, combined with
+                    </p>
+
+
+                    <div class="social-icons">
+
+                        <a href="#" aria-label="Facebook">
+                            f
+                        </a>
+
+                        <a href="#" aria-label="Twitter">
+                            𝕏
+                        </a>
+
+                        <a href="#" aria-label="Instagram">
+                            ◎
+                        </a>
+
+                        <a href="#" aria-label="Pinterest">
+                            p
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Opening Hours -->
+
+                <div>
+
+                    <h3>
+                        Opening Hours
+                    </h3>
+
+                    <p>
+                        <strong>Everyday</strong>
+                    </p>
+
+                    <p>
+                        10.00 AM - 10.00 PM
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="copyright">
+
+                © 2026 All Rights Reserved By Free Html Templates
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    
+<!-- =====================================================
+         JAVASCRIPT
+    ===================================================== -->
+
+    <script>
+
+        /* Mobile menu */
+
+        const mobileMenu =
+            document.getElementById("mobileMenu");
+
+        const navRight =
+            document.getElementById("navRight");
+
+        mobileMenu.addEventListener("click", function () {
+
+            navRight.classList.toggle("show");
+
+        });
+
+
+        /* Close mobile menu after clicking link */
+
+        const navLinks =
+            document.querySelectorAll(".nav-links a");
+
+        navLinks.forEach(function (link) {
+
+            link.addEventListener("click", function () {
+
+                navRight.classList.remove("show");
+
+            });
+
+        });
+
+
+        /* Filter button active state */
+
+        const filterButtons =
+            document.querySelectorAll(".filter-btn");
+
+        filterButtons.forEach(function (button) {
+
+            button.addEventListener("click", function () {
+
+                filterButtons.forEach(function (btn) {
+
+                    btn.classList.remove("active");
+
+                });
+
+                button.classList.add("active");
+
+            });
+
+        });
+
+
+        /* Simple booking submit */
+
+        const bookingForm =
+            document.querySelector(".booking-form form");
+
+        bookingForm.addEventListener("submit", function (event) {
+
+            event.preventDefault();
+
+            alert("Your table booking request has been submitted!");
+
+        });
+
+    </script>
+
+
+
+
+
+
+</body>
+</html>
